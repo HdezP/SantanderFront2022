@@ -26,18 +26,14 @@ button {
     font-family: sans-serif;
   }
 
-  li{
-    display: inline-block;
-    margin-right: 25px;
-    margin-left: 25px;
-  }
+  
 
   header > * {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
     height: 100%;
-    vertical-align: right;
+    vertical-align: middle;
   }
 
   .logo {
@@ -50,14 +46,19 @@ button {
 
   .navbar {
     width: 80%;
-    text-align: left;
+    text-align: center;
     color: #025157;
     font-weight: 500;
   }
 
+  .navbar li{
+    display: inline;
+    margin: 0 25px;
+  }
+
   .actions {
     width: 15%;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
   }
@@ -73,7 +74,7 @@ button {
   .actions button {
     color: white;
     background-color: #67b54b;
-    padding: 12px 12px 14px;
+    padding: 12px 14px;
     border: 0;
     border-radius: 5px;
   }
